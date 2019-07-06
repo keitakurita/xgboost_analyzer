@@ -33,6 +33,6 @@ print(paths[0])
 
 - Plotting
 Currently supports plotting waterfall plots in matplotlib and plotly to visualize decision paths.
-The contribution of each split is computed as the average of the predictions of each subtree weighted by the number of examples in each split (in other words, the value at each split is computed as the expected value of the prediction for any item that is allocated to that split)
+The contribution of each split is computed as the average of the predictions of each subtree weighted by the number of examples in each split (in other words, the value at each split is computed as the expected value of the prediction for any item that is allocated to that split)  
 
 ![sample waterfall plot](images/waterfall_sample.png?raw=true)

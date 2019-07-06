@@ -2,7 +2,7 @@
 Provides a simple interface into the underlying decision trees behind an XGBoost model.
 
 ### Features
-- XGBAnalyzer
+- XGBAnalyzer  
 We can analyze construct a python interface into the decision tree like this:
 
 ```python
@@ -31,7 +31,7 @@ print(paths[0])
   (13, None, 0.182738945)]
  ```
 
-- Plotting
+- Plotting  
 Currently supports plotting waterfall plots in matplotlib and plotly to visualize decision paths.
 The contribution of each split is computed as the average of the predictions of each subtree weighted by the number of examples in each split (in other words, the value at each split is computed as the expected value of the prediction for any item that is allocated to that split)  
 

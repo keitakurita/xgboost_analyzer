@@ -3,7 +3,7 @@ Provides a simple interface into the underlying decision trees behind an XGBoost
 
 ### Features
 - XGBAnalyzer  
-We can analyze construct a python interface into the decision tree like this:
+We can construct a python interface into the decision tree like this:
 
 ```python
 import numpy as np
